@@ -1,8 +1,13 @@
+
 # C File Manager
 
-\<p align="center">   A lightweight command-line file manager written in C.   \<br>   Create, delete, read, write, list, and search files directly from your terminal. \</p>
+A lightweight command-line file manager written in C.
 
-\<p align="center">   \<img src="[https://img.shields.io/badge/Language-C-blue](https://img.shields.io/badge/Language-C-blue)" alt="Language: C">   \<img src="[https://img.shields.io/badge/Version-v0.1.0-green](https://img.shields.io/badge/Version-v0.1.0-green)" alt="Version: v0.1.0">   \<img src="[https://img.shields.io/badge/Status-In%20Development-orange](https://img.shields.io/badge/Status-In%20Development-orange)" alt="Status: In Development"> \</p>
+Create, delete, read, write, list, and search files directly from your terminal.
+
+![Language: C](https://img.shields.io/badge/Language-C-blue)
+![Version: v0.1.0](https://img.shields.io/badge/Version-v0.1.0-green)
+![Status: In Development](https://img.shields.io/badge/Status-In%20Development-orange)
 
 ---
 
