@@ -1,0 +1,14 @@
+# Compiled files
+*.exe
+*.o
+*.out
+
+# Temporary files
+tempCodeRunnerFile.c
+*.tmp
+
+# Build directories
+build/
+
+# Editor settings
+.vscode/
