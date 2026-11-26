@@ -52,6 +52,7 @@ error_codes_t read_file(const char *filename){
         return FS_ERR_FILE_NOT_FOUND;
     }
 
+    // Read the file character by character until EOF
     while(1){
         int ch = fgetc(file);
 
@@ -74,6 +75,7 @@ error_codes_t list_files(const char *path){
         return FS_ERR_DIR_OPEN;
     }
     
+    // Read directory entries until there are no more entries
     while(1){
         struct dirent *entry;
         entry = readdir(dir);
@@ -100,6 +102,7 @@ error_codes_t search_file(const char *filename,const char *keyword){
     int line_num = 1;
     int found = 0;
 
+    // Search for the keyword in each line
     while(fgets(line,sizeof(line),file) != NULL){
         if(strstr(line,keyword) != NULL){
             printf("Found (Line %d): %s", line_num, line);
