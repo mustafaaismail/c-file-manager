@@ -12,3 +12,6 @@ build/
 
 # Editor settings
 .vscode/
+
+# Generated log files
+*.log
